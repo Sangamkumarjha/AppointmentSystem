@@ -5,7 +5,7 @@ import { createUserTable,createAppointmentTable } from '../models/userModel.js';
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Sangam123#@', 
+  password: '', 
   database: 'appointment_system',
 });
 
